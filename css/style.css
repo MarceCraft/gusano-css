@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+}
+
+.caja1 {
+    width: 120px;
+    height: 40px;
+    background-color: #47a;   
+    margin: auto;
+}
+.caja2 {
+    width: 200px;
+    height: 20px;
+    background-color: #47a;
+    margin: auto;
+    border-radius: 75%;
+    position: relative;
+    bottom: 10px;
+    z-index: 1;
+}
+.caja3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+}
+.caja4 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+}
+.caja5 {
+    width: 220px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+}
+.item {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 20px auto;
+}
+
+/*<div class="ojos">
+<div class="ojo-1"></div>
+<div class="ojo-2"></div>
+</div>
+
+<div class="nariz"></div>
+<div class="boca"></div>*/
+
+.ojos {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.ojo-1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid;
+    margin: 20px auto;
+    border: 3px solid;
+}
+.ojo-2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid;
+}
+
+.nariz {
+    clip-path: polygon(100% 41%, 0 0, 0 99%);
+    height: 30px;
+    width: 20px;
+    margin: auto;
+    background-color: #000;
+}
+
+.boca {
+    height: 10px;
+    width: 80%;
+    background-color: #000;
+    margin: auto;
+}
+
+.mano1 {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    border: 3px solid ;
+    right: 240px;
+    top: 300px;
+    transform: rotate(45deg);
+
+}
+.mano2 {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    border: 3px solid ;
+    left: 240px;
+    top: 300px;
+    transform: rotate(-45deg);
+}
+
